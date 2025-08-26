@@ -313,9 +313,9 @@ class GeminiFlashImage:
 
 # Registro del nodo para ComfyUI
 NODE_CLASS_MAPPINGS = {
-    "GeminiFlashImage": GeminiFlashImage
+    "CheLogarchoGemini": GeminiFlashImage
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "GeminiFlashImage": "Gemini 2.5 Flash Image (nano-banana)"
+    "CheLogarchoGemini": "CheLogarcho Gemini Flash"
 }

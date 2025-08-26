@@ -1,7 +1,7 @@
-# Gemini 2.5 Flash Image - Custom Node para ComfyUI
+# CheLogarcho Gemini Flash - Custom Node para ComfyUI
 
 ## 📋 Descripción
-Este custom node integra **Gemini 2.5 Flash Image** (también conocido como "nano-banana") directamente en ComfyUI, proporcionando capacidades avanzadas de generación y edición de imágenes con IA.
+Este custom node integra **Gemini 2.5 Flash Image** directamente en ComfyUI, proporcionando capacidades avanzadas de generación y edición de imágenes con IA. Creado por **CheLogarcho**.
 
 ## 🌟 Características Principales
 - **🎨 Generación de imágenes de alta calidad**: Estado del arte en calidad visual
@@ -18,19 +18,19 @@ Este custom node integra **Gemini 2.5 Flash Image** (también conocido como "nan
 Copia la carpeta completa a tu directorio de custom nodes:
 ```bash
 # Ubicación típica
-ComfyUI/custom_nodes/gemini_flash_image/
+ComfyUI/custom_nodes/chelogarcho_gemini/
 ```
 
 ### 2. Instalar Dependencias
 ```bash
-cd ComfyUI/custom_nodes/gemini_flash_image
+cd ComfyUI/custom_nodes/chelogarcho_gemini
 pip install -r requirements.txt
 ```
 
 **Para ComfyUI Portable:**
 ```bash
 cd ComfyUI_windows_portable
-python_embeded\python.exe -m pip install -r ComfyUI\custom_nodes\gemini_flash_image\requirements.txt
+python_embeded\python.exe -m pip install -r ComfyUI\custom_nodes\chelogarcho_gemini\requirements.txt
 ```
 
 ### 3. Configurar API Key
@@ -209,4 +209,4 @@ Las contribuciones son bienvenidas. Por favor, abre un issue o pull request en e
 
 ---
 
-**Nota**: Este nodo requiere una API key válida de Google AI Studio para funcionar. Asegúrate de configurar tu clave antes de usar el nodo.
+**Nota**: Este nodo requiere una API key válida de Google AI Studio para funcionar. Asegúrate de configurar tu clave antes de usar el nodo.a
